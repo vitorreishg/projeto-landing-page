@@ -5,7 +5,7 @@
 
 #logo {
     margin-top: 52px;
-    margin-left: 56px;
+    margin-left: 100px;
 }
 
 #título-menusuperior{
@@ -25,6 +25,8 @@
 
 #menusuperior{
     background-image: url(imagens/fundo-menusuperior.png);
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 100%;
     color: white;
 }
@@ -102,6 +104,15 @@
 .seta:hover{
     transform: translateY(-3px);
     transition-duration: 0.2s;
+}
+
+#seta-esquerda-carrossel{
+    display: none;
+}
+
+.seta-wrapper{
+    height: 78px;
+    width: 78px;
 }
 
 #formulario{
